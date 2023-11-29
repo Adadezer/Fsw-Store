@@ -14,8 +14,9 @@ import {
 } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 import { signIn, signOut, useSession } from "next-auth/react";
-import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
-import { Separator } from "@radix-ui/react-separator";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
+import { Separator } from "@/components/ui/separator";
 
 const Header = () => {
   const { status, data } = useSession();
@@ -50,12 +51,7 @@ const Header = () => {
                     {data.user.name?.[0].toUpperCase()}
                   </AvatarFallback>
 
-                  {data.user.image && (
-                    <AvatarImage
-                      className="h-10 rounded-full"
-                      src={data.user.image}
-                    />
-                  )}
+                  {data.user.image && <AvatarImage src={data.user.image} />}
                 </Avatar>
 
                 <div className="flex flex-col">
