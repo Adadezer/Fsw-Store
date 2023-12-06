@@ -1,8 +1,13 @@
 import { Product } from "@prisma/client";
 
 export interface ProductWithTotalPrice extends Product {
-  totalPrice: number;
+  totalPrice: string;
 }
+
+const formatNumber = new Intl.NumberFormat("pt-BR", {
+  style: "currency",
+  currency: "BRL",
+});
 
 export const computeProductTotalPrice = (
   product: Product,
@@ -10,14 +15,17 @@ export const computeProductTotalPrice = (
   if (product.discountPercentage === 0) {
     return {
       ...product,
-      totalPrice: Number(product.basePrice),
+      totalPrice: formatNumber.format(Number(product.basePrice)),
     };
   }
 
-  const totalPrice =
+  const totalDiscount =
     Number(product.basePrice) * (product.discountPercentage / 100);
+
+  const totalWithDiscount = Number(product.basePrice) - totalDiscount;
+
   return {
     ...product,
-    totalPrice,
+    totalPrice: formatNumber.format(totalWithDiscount),
   };
 };

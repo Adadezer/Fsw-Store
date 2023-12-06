@@ -8,6 +8,11 @@ interface ProductItemProps {
   product: ProductWithTotalPrice;
 }
 
+const formatNumber = new Intl.NumberFormat("pt-BR", {
+  style: "currency",
+  currency: "BRL",
+});
+
 const ProductItem = ({ product }: ProductItemProps) => {
   return (
     <div className="flex max-w-[156px] flex-col gap-4">
@@ -39,17 +44,15 @@ const ProductItem = ({ product }: ProductItemProps) => {
         <div className="flex items-center gap-2">
           {product.discountPercentage > 0 ? (
             <>
-              <p className="font-semibold">
-                R$ {product.totalPrice.toFixed(2)}
-              </p>
+              <p className="font-semibold">{product.totalPrice}</p>
 
               <p className="text-xs line-through opacity-75">
-                R$ {Number(product.basePrice).toFixed(2)}
+                {formatNumber.format(Number(product.basePrice))}
               </p>
             </>
           ) : (
             <p className="text-sm font-semibold">
-              R$ {product.basePrice.toFixed(2)}
+              {formatNumber.format(Number(product.basePrice))}
             </p>
           )}
         </div>
