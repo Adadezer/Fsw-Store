@@ -43,12 +43,10 @@ export default async function Home() {
         <ProductList products={keyboards} />
       </div>
 
-      <div>
-        <PromoBanner
-          src="/banner-home-03.png"
-          alt="Até 20% de desconto em fones!"
-        />
-      </div>
+      <PromoBanner
+        src="/banner-home-03.png"
+        alt="Até 20% de desconto em fones!"
+      />
 
       <div>
         <SectionTitle>Mouses</SectionTitle>
