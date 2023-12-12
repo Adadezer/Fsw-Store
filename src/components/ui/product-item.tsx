@@ -16,7 +16,7 @@ const formatNumber = new Intl.NumberFormat("pt-BR", {
 
 const ProductItem = ({ product }: ProductItemProps) => {
   return (
-    <Link href={`products/${product.slug}`}>
+    <Link href={`/products/${product.slug}`}>
       <div className="flex flex-col gap-4">
         <div className="relative flex h-[170px] w-full items-center justify-center rounded-lg bg-accent">
           <Image
