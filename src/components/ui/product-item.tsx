@@ -3,15 +3,11 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import DiscountBadge from "./discount-badge";
+import NumberToCurrency from "./number-currency";
 
 interface ProductItemProps {
   product: ProductWithTotalPrice;
 }
-
-const formatNumber = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BRL",
-});
 
 const ProductItem = ({ product }: ProductItemProps) => {
   return (
@@ -48,12 +44,12 @@ const ProductItem = ({ product }: ProductItemProps) => {
                 <p className="font-semibold">{product.totalPrice}</p>
 
                 <p className="text-xs line-through opacity-75">
-                  {formatNumber.format(Number(product.basePrice))}
+                  {NumberToCurrency(Number(product.basePrice))}
                 </p>
               </>
             ) : (
               <p className="text-sm font-semibold">
-                {formatNumber.format(Number(product.basePrice))}
+                {NumberToCurrency(Number(product.basePrice))}
               </p>
             )}
           </div>

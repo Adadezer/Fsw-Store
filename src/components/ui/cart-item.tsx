@@ -3,15 +3,11 @@ import Image from "next/image";
 import React, { useContext } from "react";
 import { Button } from "./button";
 import { ArrowLeftIcon, ArrowRightIcon, TrashIcon } from "lucide-react";
+import NumberToCurrency from "./number-currency";
 
 interface CartItemProps {
   product: CartProduct;
 }
-
-const formatNumber = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BRL",
-});
 
 const CartItem = ({ product }: CartItemProps) => {
   const {
@@ -52,7 +48,7 @@ const CartItem = ({ product }: CartItemProps) => {
             <p className="text-sm font-bold">{product.totalPrice}</p>
             {product.discountPercentage > 0 && (
               <p className="text-xs line-through opacity-40">
-                {formatNumber.format(Number(product.basePrice))}
+                {NumberToCurrency(Number(product.basePrice))}
               </p>
             )}
           </div>

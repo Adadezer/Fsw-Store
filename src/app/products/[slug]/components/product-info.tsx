@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import DiscountBadge from "@/components/ui/discount-badge";
+import NumberToCurrency from "@/components/ui/number-currency";
 import { ProductWithTotalPrice } from "@/helpers/product";
 import { CartContext } from "@/providers/cart";
 import { ArrowLeftIcon, ArrowRightIcon, TruckIcon } from "lucide-react";
@@ -10,11 +11,6 @@ import React, { useContext, useState } from "react";
 interface ProductInfoProps {
   product: ProductWithTotalPrice;
 }
-
-const formatNumber = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BRL",
-});
 
 const ProductInfo = ({ product }: ProductInfoProps) => {
   const [quantity, setQuantity] = useState(1);
@@ -47,7 +43,7 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
 
       {product.discountPercentage > 0 && (
         <p className="text-sm line-through opacity-40">
-          De: {String(formatNumber.format(Number(product.basePrice)))}
+          De: {NumberToCurrency(Number(product.basePrice))}
         </p>
       )}
 
