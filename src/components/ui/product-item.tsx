@@ -1,18 +1,13 @@
 import { ProductWithTotalPrice } from "@/helpers/product";
-import { ArrowDownIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { Badge } from "./badge";
 import Link from "next/link";
+import DiscountBadge from "./discount-badge";
+import NumberToCurrency from "./number-currency";
 
 interface ProductItemProps {
   product: ProductWithTotalPrice;
 }
-
-const formatNumber = new Intl.NumberFormat("pt-BR", {
-  style: "currency",
-  currency: "BRL",
-});
 
 const ProductItem = ({ product }: ProductItemProps) => {
   return (
@@ -32,9 +27,9 @@ const ProductItem = ({ product }: ProductItemProps) => {
           />
 
           {product.discountPercentage > 0 && (
-            <Badge className="absolute left-3 top-3 px-2 py-[2px]">
-              <ArrowDownIcon size={14} /> {product.discountPercentage}%
-            </Badge>
+            <DiscountBadge className="absolute left-3 top-3">
+              {product.discountPercentage}
+            </DiscountBadge>
           )}
         </div>
 
@@ -49,12 +44,12 @@ const ProductItem = ({ product }: ProductItemProps) => {
                 <p className="font-semibold">{product.totalPrice}</p>
 
                 <p className="text-xs line-through opacity-75">
-                  {formatNumber.format(Number(product.basePrice))}
+                  {NumberToCurrency(Number(product.basePrice))}
                 </p>
               </>
             ) : (
               <p className="text-sm font-semibold">
-                {formatNumber.format(Number(product.basePrice))}
+                {NumberToCurrency(Number(product.basePrice))}
               </p>
             )}
           </div>
