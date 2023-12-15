@@ -45,7 +45,9 @@ const CartItem = ({ product }: CartItemProps) => {
         <div className="flex flex-col">
           <p className="text-sx">{product.name}</p>
           <div className="flex items-center gap-2">
-            <p className="text-sm font-bold">{product.totalPrice}</p>
+            <p className="text-sm font-bold">
+              {NumberToCurrency(product.totalPrice)}
+            </p>
             {product.discountPercentage > 0 && (
               <p className="text-xs line-through opacity-40">
                 {NumberToCurrency(Number(product.basePrice))}
