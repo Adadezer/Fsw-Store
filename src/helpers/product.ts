@@ -1,8 +1,7 @@
-import NumberToCurrency from "@/components/ui/number-currency";
 import { Product } from "@prisma/client";
 
 export interface ProductWithTotalPrice extends Product {
-  totalPrice: string;
+  totalPrice: number;
 }
 
 export const computeProductTotalPrice = (
@@ -11,7 +10,7 @@ export const computeProductTotalPrice = (
   if (product.discountPercentage === 0) {
     return {
       ...product,
-      totalPrice: NumberToCurrency(Number(product.basePrice)),
+      totalPrice: Number(product.basePrice),
     };
   }
 
@@ -22,6 +21,6 @@ export const computeProductTotalPrice = (
 
   return {
     ...product,
-    totalPrice: NumberToCurrency(totalWithDiscount),
+    totalPrice: totalWithDiscount,
   };
 };
