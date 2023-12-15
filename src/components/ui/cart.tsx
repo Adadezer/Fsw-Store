@@ -12,7 +12,7 @@ import { Button } from "./button";
 const Cart = () => {
   const { products, subtotal, total, totalDiscount } = useContext(CartContext);
   return (
-    <div className="flex h-full flex-col gap-8">
+    <div className="flex h-full flex-col gap-3">
       <Badge
         className="w-fit gap-1 border-2 border-primary px-3 py-[0.375rem] text-base uppercase"
         variant="outline"
@@ -21,7 +21,7 @@ const Cart = () => {
         Carrinho
       </Badge>
 
-      <div className="flex h-full flex-col gap-5 overflow-hidden">
+      <div className="flex h-full flex-col overflow-hidden">
         <ScrollArea className="h-full">
           {products.length > 0 ? (
             products.map((product) => (

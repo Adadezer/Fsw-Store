@@ -29,9 +29,9 @@ const CartItem = ({ product }: CartItemProps) => {
   };
 
   return (
-    <div className="flex items-center justify-between">
-      <div className="flex items-center gap-4">
-        <div className="flex h-[77px] w-[77px] items-center justify-center rounded-lg bg-accent">
+    <div className="flex items-center justify-between py-2">
+      <div className="flex items-center gap-2">
+        <div className="flex h-[110px] w-[110px] items-center justify-center rounded-lg bg-accent">
           <Image
             src={product.imageUrls[0]}
             width={0}
@@ -42,27 +42,27 @@ const CartItem = ({ product }: CartItemProps) => {
           />
         </div>
 
-        <div className="flex flex-col">
-          <p className="text-sx">{product.name}</p>
-          <div className="flex items-center gap-2">
-            <p className="text-sm font-bold">
-              {NumberToCurrency(product.totalPrice)}
-            </p>
-            {product.discountPercentage > 0 && (
-              <p className="text-xs line-through opacity-40">
-                {NumberToCurrency(Number(product.basePrice))}
-              </p>
-            )}
-          </div>
+        <div className="flex flex-col gap-1">
+          <p className="text-xs">{product.name}</p>
 
-          <div className="flex items-center gap-1">
+          <p className="text-sm font-bold">
+            {NumberToCurrency(product.totalPrice)}
+          </p>
+
+          {product.discountPercentage > 0 && (
+            <p className="text-xs line-through opacity-40">
+              De: {NumberToCurrency(Number(product.basePrice))}
+            </p>
+          )}
+
+          <div className="flex w-[80px] items-center justify-between">
             <Button
               size="icon"
               variant="outline"
               className="h-8 w-8"
               onClick={handleDecreaseProductQuantityClick}
             >
-              <ArrowLeftIcon size={16} />
+              <ArrowLeftIcon className="h-4 w-4" />
             </Button>
 
             <span className="text-xs">{product.quantity}</span>
@@ -73,7 +73,7 @@ const CartItem = ({ product }: CartItemProps) => {
               className="h-8 w-8"
               onClick={handleIncreaseProductQuantityClick}
             >
-              <ArrowRightIcon size={16} />
+              <ArrowRightIcon className="h-4 w-4" />
             </Button>
           </div>
         </div>
@@ -84,7 +84,7 @@ const CartItem = ({ product }: CartItemProps) => {
         className="h-8 w-8"
         onClick={handleRemoveProductClick}
       >
-        <TrashIcon size={16} />
+        <TrashIcon className="h-4 w-4" />
       </Button>
     </div>
   );
