@@ -51,41 +51,43 @@ const Cart = () => {
         </ScrollArea>
       </div>
 
-      <div className="flex flex-col">
-        <Separator />
+      {products.length > 0 && (
+        <div className="flex flex-col">
+          <Separator />
 
-        <div className="flex items-center justify-between text-xs">
-          <p>Subtotal</p>
-          <p>{NumberToCurrency(subtotal)}</p>
+          <div className="flex items-center justify-between text-xs">
+            <p>Subtotal</p>
+            <p>{NumberToCurrency(subtotal)}</p>
+          </div>
+          <Separator />
+
+          <div className="flex items-center justify-between text-xs">
+            <p>Entrega</p>
+            <p>GRÁTIS</p>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between text-xs">
+            <p>Descontos</p>
+            <p> {NumberToCurrency(totalDiscount)}</p>
+          </div>
+
+          <Separator />
+
+          <div className="flex items-center justify-between text-sm font-bold">
+            <p>Total</p>
+            <p>{NumberToCurrency(total)}</p>
+          </div>
+
+          <Button
+            className="mt-7 font-bold uppercase"
+            onClick={handleFinishPurchaseClick}
+          >
+            Finalizar compra
+          </Button>
         </div>
-        <Separator />
-
-        <div className="flex items-center justify-between text-xs">
-          <p>Entrega</p>
-          <p>GRÁTIS</p>
-        </div>
-
-        <Separator />
-
-        <div className="flex items-center justify-between text-xs">
-          <p>Descontos</p>
-          <p> {NumberToCurrency(totalDiscount)}</p>
-        </div>
-
-        <Separator />
-
-        <div className="flex items-center justify-between text-sm font-bold">
-          <p>Total</p>
-          <p>{NumberToCurrency(total)}</p>
-        </div>
-
-        <Button
-          className="mt-7 font-bold uppercase"
-          onClick={handleFinishPurchaseClick}
-        >
-          Finalizar compra
-        </Button>
-      </div>
+      )}
     </div>
   );
 };
