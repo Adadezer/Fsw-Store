@@ -41,7 +41,12 @@ const CartProvider = ({ children }: { children: ReactNode }) => {
   );
 
   useEffect(() => {
-    localStorage.setItem("@tech-store/cart-products", JSON.stringify(products));
+    if (typeof window !== "undefined") {
+      localStorage.setItem(
+        "@tech-store/cart-products",
+        JSON.stringify(products),
+      );
+    }
   }, [products]);
 
   // total sem descontos
