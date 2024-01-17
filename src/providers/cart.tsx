@@ -40,12 +40,17 @@ const CartProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     setProducts(
-      JSON.parse(localStorage.getItem("@fsw-store/cart-products") || "[]"),
+      JSON.parse(localStorage.getItem("@tech-store/cart-products") || "[]"),
     );
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("@fsw-store/cart-products", JSON.stringify(products));
+    if (products.length > 0) {
+      localStorage.setItem(
+        "@tech-store/cart-products",
+        JSON.stringify(products),
+      );
+    }
   }, [products]);
 
   // total sem descontos
