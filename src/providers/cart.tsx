@@ -36,12 +36,21 @@ export const CartContext = createContext<ICartContext>({
 });
 
 const CartProvider = ({ children }: { children: ReactNode }) => {
-  const [products, setProducts] = useState<CartProduct[]>(
-    JSON.parse(localStorage.getItem("@tech-store/cart-products") || "[]"),
-  );
+  const [products, setProducts] = useState<CartProduct[]>([]);
 
   useEffect(() => {
-    localStorage.setItem("@tech-store/cart-products", JSON.stringify(products));
+    setProducts(
+      JSON.parse(localStorage.getItem("@tech-store/cart-products") || "[]"),
+    );
+  }, []);
+
+  useEffect(() => {
+    if (products.length > 0) {
+      localStorage.setItem(
+        "@tech-store/cart-products",
+        JSON.stringify(products),
+      );
+    }
   }, [products]);
 
   // total sem descontos
@@ -133,9 +142,9 @@ const CartProvider = ({ children }: { children: ReactNode }) => {
         decreaseProductQuantity,
         increaseProductQuantity,
         removeProductFromCart,
-        cartTotalPrice: 0,
-        cartBasePrice: 0,
-        cartTotalDiscount: 0,
+        cartTotalPrice: total,
+        cartBasePrice: subtotal,
+        cartTotalDiscount: totalDiscount,
         subtotal,
         total,
         totalDiscount,

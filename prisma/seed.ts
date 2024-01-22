@@ -34,10 +34,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-superlight.png",
+          "https://www.dropbox.com/scl/fi/al74dv2ekv1c8ewbmukw5/01_logi-superlight.png?rlkey=axipi8nvbfld29s4ss8wbkdxu&raw=1",
+          "https://www.dropbox.com/scl/fi/gcytjvh0f1p7yszpyh5ik/02_logi-superlight.png?rlkey=nda658zqk6kwnbk6g2uzcmn85&raw=1",
+          "https://www.dropbox.com/scl/fi/ryhdh3jbu4btg3885m9fs/03_logi-superlight.png?rlkey=jf2m10ro3usim1zmtlso6d8ix&raw=1",
+          "https://www.dropbox.com/scl/fi/zar00uw7rahiqx8l2msfb/04_logi-superlight.png?rlkey=uqeuhj5eu16xofgs4hxjt973n&raw=1",
         ],
         basePrice: 750,
         categoryId: mousesCategory.id,
