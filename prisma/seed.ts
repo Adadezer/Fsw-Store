@@ -8,7 +8,8 @@ async function main() {
       data: {
         name: "Mouses",
         slug: "mouses",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/mouses.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/tw1fm06ryqcf6vcjpyfcq/catalogoMouse.png?rlkey=i3uxsowyef1xkmq51czdu1c7a&raw=1",
       },
     });
 
@@ -19,10 +20,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_mx-master-3s.pnG",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_mx-master-3s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_mx-master-3s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_mx-master-3s.png",
+          "https://www.dropbox.com/scl/fi/64usf9nwhsvn4cpgyuqlw/01_mx-master-3s.png?rlkey=jvjrv9dpd3k35oekalz5tmd03&raw=1",
+          "https://www.dropbox.com/scl/fi/0ecn6unlt1j9kb1qay9t9/02_mx-master-3s.png?rlkey=kk40jqw9grsr26f8qzknbmzrm&raw=1",
+          "https://www.dropbox.com/scl/fi/o7mhrt135l0xx45l0wpae/03_mx-master-3s.png?rlkey=qgov3nsztkltx8mm2gq4uf504&raw=1",
+          "https://www.dropbox.com/scl/fi/ww778g9qylt3x1xyi27ek/04_mx-master-3s.png?rlkey=4ecvu99dkou83edvs9vdz2gl9&raw=1",
         ],
         basePrice: 650,
         categoryId: mousesCategory.id,
@@ -49,10 +50,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-lightspeed.png",
+          "https://www.dropbox.com/scl/fi/m3pidyxjvyraqxhvclk0q/01_logi-lightspeed.png?rlkey=l1ju2ujc8bdc6910ip5i4iwat&raw=1",
+          "https://www.dropbox.com/scl/fi/86lyg6u2p03qosig0110v/02_logi-lightspeed.png?rlkey=kxm5w9w42ar7qmz0958i6si9l&raw=1",
+          "https://www.dropbox.com/scl/fi/7npfhgyq1coxe4mb7nt2a/03_logi-lightspeed.png?rlkey=daoq89w81wm1ftoeqsuydkl1b&raw=1",
+          "https://www.dropbox.com/scl/fi/3nwrctia1ftqdf14tkkgs/04_logi-lightspeed.png?rlkey=hxrml963fz07urkewjnqexes4&raw=1",
         ],
         basePrice: 300,
         categoryId: mousesCategory.id,
@@ -64,10 +65,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_hyperx-dart.png",
+          "https://www.dropbox.com/scl/fi/x3nppxpp4i3ja7vs9xtoe/01_hyperx-dart.png?rlkey=exy43he4kphhwwkdmt5zdovyv&raw=1",
+          "https://www.dropbox.com/scl/fi/inthhdxbedwotwf72qem9/02_hyperx-dart.png?rlkey=0dcq84esupufh1mrjw4lkbkk3&raw=1",
+          "https://www.dropbox.com/scl/fi/ilhs38875oawgprjyc3p1/03_hyperx-dart.png?rlkey=nrqw2n0vytnzbb8yw3ycf628q&raw=1",
+          "https://www.dropbox.com/scl/fi/tjw9o9x8pq4m2kszs66rc/04_hyperx-dart.png?rlkey=uh8ue9kajkz2mgiadktk47zet&raw=1",
         ],
         basePrice: 600,
         categoryId: mousesCategory.id,
@@ -79,10 +80,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_razer-deathadder.png",
+          "https://www.dropbox.com/scl/fi/51vo10k10a2g8r10z8758/01_razer-deathadder.png?rlkey=uurghz5dygu5hhiae2kchj0js&raw=1",
+          "https://www.dropbox.com/scl/fi/sugmqqa897eitklstyovq/02_razer-deathadder.png?rlkey=xp56nfuz3bzpq4x8kkys71v9v&raw=1",
+          "https://www.dropbox.com/scl/fi/o5rjn9qv0nv6rom152l39/03_razer-deathadder.png?rlkey=pzo78wbbf6ko4p7nd6g6akwy0&raw=1",
+          "https://www.dropbox.com/scl/fi/lxy7bq69mknnbwgdi6zoq/04_razer-deathadder.png?rlkey=09to1uu71lla331gx9aadyb7a&raw=1",
         ],
         basePrice: 350,
         categoryId: mousesCategory.id,
