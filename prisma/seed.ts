@@ -20,7 +20,7 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/64usf9nwhsvn4cpgyuqlw/01_mx-master-3s.png?rlkey=jvjrv9dpd3k35oekalz5tmd03&raw=1",
+          "https://www.dropbox.com/scl/fi/t38wtb52850lktup8f04a/01_mx-master-3s.png?rlkey=5z5ttws3b0i89yi3z8ujfh2ab&raw=1",
           "https://www.dropbox.com/scl/fi/0ecn6unlt1j9kb1qay9t9/02_mx-master-3s.png?rlkey=kk40jqw9grsr26f8qzknbmzrm&raw=1",
           "https://www.dropbox.com/scl/fi/o7mhrt135l0xx45l0wpae/03_mx-master-3s.png?rlkey=qgov3nsztkltx8mm2gq4uf504&raw=1",
           "https://www.dropbox.com/scl/fi/ww778g9qylt3x1xyi27ek/04_mx-master-3s.png?rlkey=4ecvu99dkou83edvs9vdz2gl9&raw=1",
@@ -99,7 +99,8 @@ async function main() {
       data: {
         name: "Teclados",
         slug: "keyboards",
-        imageUrl: "/teclado-catalogo.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/gbtvm5s4ty9szlfhca2um/catologoTeclado.png?rlkey=gai1at2rzsqzhkr5chy8dl84q&raw=1",
       },
     });
 
@@ -125,10 +126,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-keys-s.png",
+          "https://www.dropbox.com/scl/fi/ekffj1td459thbulou82p/01_logi-mx-keys-s.png?rlkey=qgmxrfguwumx4rqcubpv0se70&raw=1",
+          "https://www.dropbox.com/scl/fi/o5ecbw6ncu7y1vfndm53r/02_logi-mx-keys-s.png?rlkey=0hhq3cfwdz960cl3trup5mssk&raw=1",
+          "https://www.dropbox.com/scl/fi/k7lp8tdcrzrbvn332k7x4/03_logi-mx-keys-s.png?rlkey=8nqnuy3kfa7l9jcpel95zmxcj&raw=1",
+          "https://www.dropbox.com/scl/fi/f2jn56p9wu7kw3ri7n6rg/04_logi-mx-keys-s.png?rlkey=csaanq3abz3avwoq7h97s4m1d&raw=1",
         ],
         basePrice: 750,
         categoryId: keyboardsCategory.id,
@@ -140,10 +141,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-pop-keys.png",
+          "https://www.dropbox.com/scl/fi/x6o11u0wdz4pc48zi72xt/01_logi-pop-keys.png?rlkey=ekviyxbghl6blknypmpt9oi75&raw=1",
+          "https://www.dropbox.com/scl/fi/w16qxkrm8h0n6y3zlon6p/02_logi-pop-keys.png?rlkey=cmko42gf0do64v5typcvpgve8&raw=1",
+          "https://www.dropbox.com/scl/fi/s5rxy86wlco0pyh66sljz/03_logi-pop-keys.png?rlkey=vyiem2171dri5v2equcjzve0i&raw=1",
+          "https://www.dropbox.com/scl/fi/0pdcdwm79mkmjyx21cviy/04_logi-pop-keys.png?rlkey=96mn9dm84f5nmflqszkgnvhtd&raw=1",
         ],
         basePrice: 440,
         categoryId: keyboardsCategory.id,
@@ -155,10 +156,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-mechanical.png",
+          "https://www.dropbox.com/scl/fi/zmtr6igo0j28tg8oitciw/01_logi-mx-mechanical.png?rlkey=1sy8x8k38owcx9njs8w69xydw&raw=1",
+          "https://www.dropbox.com/scl/fi/vncbbah2jf6rajlvns4h5/02_logi-mx-mechanical.png?rlkey=jnvevg1yy94j5e8bh2z0c38bx&raw=1",
+          "https://www.dropbox.com/scl/fi/merv1nfm3d0dqewzhwzwr/03_logi-mx-mechanical.png?rlkey=f29f5ycs4nmrvucbcnjmtj5gk&raw=1",
+          "https://www.dropbox.com/scl/fi/xki4glvv3lfquv694j0qo/04_logi-mx-mechanical.png?rlkey=rx4n53jghrvaq6bcc8tlmzobh&raw=1",
         ],
         basePrice: 700,
         categoryId: keyboardsCategory.id,
@@ -170,10 +171,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_epomaker-th80.png",
+          "https://www.dropbox.com/scl/fi/m7ix2g2a2xb5dmbigz1kj/01_epomaker-th80.png?rlkey=8d4yjqig52ykmn3srgn7eono1&raw=1",
+          "https://www.dropbox.com/scl/fi/ve92f1zctzyem9zrll9el/02_epomaker-th80.png?rlkey=4a6v7bsxba9t15fmizj1jmi4z&raw=1",
+          "https://www.dropbox.com/scl/fi/gmae1tkm1le8ldlegrm4h/03_epomaker-th80.png?rlkey=wgw7bvoo9qfqeuodczayzycpz&raw=1",
+          "https://www.dropbox.com/scl/fi/9hwe2sbgh2tx53hkbdyvf/04_epomaker-th80.png?rlkey=mbmaz39d1bxu09wblymzq2p3e&raw=1",
         ],
         basePrice: 500,
         categoryId: keyboardsCategory.id,
@@ -185,10 +186,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_redragon-gamer-ashe.png",
+          "https://www.dropbox.com/scl/fi/kd7wqn00v7fww1wri0fta/01_redragon-gamer-ashe.png?rlkey=pimjn1nnujv2pey310rnoqexv&raw=1",
+          "https://www.dropbox.com/scl/fi/1obo53k4hemh2st6vuf4l/02_redragon-gamer-ashe.png?rlkey=7cr6z5sq10tfvk0b55gfgfuri&raw=1",
+          "https://www.dropbox.com/scl/fi/79xc72brxfdainpo9nup5/03_redragon-gamer-ashe.png?rlkey=vixv3tb34uempvq188r6v1wmr&raw=1",
+          "https://www.dropbox.com/scl/fi/67hrcqj5c5g9bhccqptkh/04_redragon-gamer-ashe.png?rlkey=m7827i2fslbciwvyd46qq5yk1&raw=1",
         ],
         basePrice: 400,
         categoryId: keyboardsCategory.id,
