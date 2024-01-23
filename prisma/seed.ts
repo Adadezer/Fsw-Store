@@ -247,7 +247,7 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "hhttps://www.dropbox.com/scl/fi/far6mea6k8uh6u5ki5qhc/01_logi-astro-a30.png?rlkey=ty68akh6ce8evezzrfqp2azl5&raw=1",
+          "https://www.dropbox.com/scl/fi/far6mea6k8uh6u5ki5qhc/01_logi-astro-a30.png?rlkey=ty68akh6ce8evezzrfqp2azl5&raw=1",
           "https://www.dropbox.com/scl/fi/pt7juxjixzuttg006onca/02_logi-astro-a30.png?rlkey=3k6f0h20dn313cja7h10as96e&raw=1",
           "https://www.dropbox.com/scl/fi/wp9jgpviqp9dos4r1wuyk/03_logi-astro-a30.png?rlkey=ymcqwa5828qzqu9pt8fkutm0n&raw=1",
           "https://www.dropbox.com/scl/fi/v7sk07k2yy09l3yh6fqyb/04_logi-astro-a30.png?rlkey=1ss1nw4worvk4nemai9qth59q&raw=1",
@@ -311,7 +311,8 @@ async function main() {
       data: {
         name: "Mousepads",
         slug: "mousepads",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/mousepads.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/dct6mrjp8x30bhqxij2g6/catalogoMousepad.png?rlkey=w2ok7gzp5uyywdae613jm6pkg&raw=1",
       },
     });
 
@@ -322,10 +323,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-powerplay.png",
+          "https://www.dropbox.com/scl/fi/ot752lz024t2yuwyf8y5q/01_logi-powerplay.png?rlkey=53sa3t817ko1s4087gqegf2vu&raw=1",
+          "https://www.dropbox.com/scl/fi/ghyqpni69z183dy92jd1b/02_logi-powerplay.png?rlkey=cyiaesijsrntl1d7qbojklco0&raw=1",
+          "https://www.dropbox.com/scl/fi/7js2g3cfbg8sjk8lqji10/03_logi-powerplay.png?rlkey=cn9vsq5vdaco1xhdddc1mpxwg&raw=1",
+          "https://www.dropbox.com/scl/fi/ijfjxctd9jqkjkdmu7e27/04_logi-powerplay.png?rlkey=j2ksln05mflufko3v9i3lru8t&raw=1",
         ],
         basePrice: 950,
         categoryId: mousepadsCategory.id,
@@ -337,10 +338,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-desk-mat.png",
+          "https://www.dropbox.com/scl/fi/hte8v99d2acehgs2mbxdn/01_logi-desk-mat.png?rlkey=lolhnune1nqjel00cfvdaw0wm&raw=1",
+          "https://www.dropbox.com/scl/fi/bpfwatjbgz6yqd87f0dx6/02_logi-desk-mat.png?rlkey=vo4vq0doejdj04mrbxf5zlh79&raw=1",
+          "https://www.dropbox.com/scl/fi/cakcmolsv80hv7l248b4z/03_logi-desk-mat.png?rlkey=kqftj8h481c5vjlyqrq2r5y16&raw=1",
+          "https://www.dropbox.com/scl/fi/loi364f5pjb07hg2nv8vo/04_logi-desk-mat.png?rlkey=v6ul3bgyqq7apg0njeq7betev&raw=1",
         ],
         basePrice: 150,
         categoryId: mousepadsCategory.id,
@@ -352,10 +353,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-g740.png",
+          "https://www.dropbox.com/scl/fi/f5rraz9fet7p4qxk2dwb2/01_logi-g740.png?rlkey=rvx49s9vdmwh1y15mu2r61pek&raw=1",
+          "https://www.dropbox.com/scl/fi/oci1z18pj0lgyhft61d8g/02_logi-g740.png?rlkey=9hod5dgbmy2cjcci7rpbw0q7w&raw=1",
+          "https://www.dropbox.com/scl/fi/pa99djr44ikqpoddqo4vv/03_logi-g740.png?rlkey=8us1pv2dkug7z4zty1ndc6og8&raw=1",
+          "https://www.dropbox.com/scl/fi/28oi6c3y6l2jw09rp3g52/04_logi-g740.png?rlkey=n41rqnbj8182b386xsy1cp8ud&raw=1",
         ],
         basePrice: 200,
         categoryId: mousepadsCategory.id,
@@ -367,10 +368,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-studio-series.png",
+          "https://www.dropbox.com/scl/fi/dhpun9awajhpl45waj0fn/01_logi-studio-series.png?rlkey=9dm95sikpy5akgz9hh578kcw7&raw=1",
+          "https://www.dropbox.com/scl/fi/gffobk2w4mwnejn0uzqg8/02_logi-studio-series.png?rlkey=t7t36dyb30hg4457mai791wg0&raw=1",
+          "https://www.dropbox.com/scl/fi/74vcqbuihwx01drjgjelj/03_logi-studio-series.png?rlkey=pk5q8vdkx4v9j7wiuyt0djiel&raw=1",
+          "https://www.dropbox.com/scl/fi/4lv83nzawqb882pcxlatx/04_logi-studio-series.png?rlkey=j8bq94pbn7yu95r93b4cxhhvb&raw=1",
         ],
         basePrice: 250,
         categoryId: mousepadsCategory.id,
@@ -382,10 +383,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_force-dark.png",
+          "https://www.dropbox.com/scl/fi/bt0mura82ijp8m7ezvpdb/01_force-dark.png?rlkey=kduql2itt65nvq0xf5lthxboy&raw=1",
+          "https://www.dropbox.com/scl/fi/cnl0u03cem69nxooywz8i/02_force-dark.png?rlkey=q5ysdzvymm5yo6pkc1yijvypq&raw=1",
+          "https://www.dropbox.com/scl/fi/5rbj88h1et03r4ovu4yxx/03_force-dark.png?rlkey=opeotcwobxdhfpr5z5j7c6wr8&raw=1",
+          "https://www.dropbox.com/scl/fi/on6rkgsemxo9dlqx36uw5/04_force-dark.png?rlkey=kgi698ejjf4jljqd6eglzn3im&raw=1",
         ],
         basePrice: 300,
         categoryId: mousepadsCategory.id,
@@ -397,10 +398,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_force-snow.png",
+          "https://www.dropbox.com/scl/fi/duels3bnyp1l54bogkvh9/01_force-snow.png?rlkey=zng3zqhskecfvmemw9jgn86xa&raw=1",
+          "https://www.dropbox.com/scl/fi/mqhyx33slg327s25p3bzg/02_force-snow.png?rlkey=mslwstco34jidufaj3tw39vna&raw=1",
+          "https://www.dropbox.com/scl/fi/znrdvix0dhbogd5jiqmts/03_force-snow.png?rlkey=xr2mxzlyxdeqblxa1iayioxyt&raw=1",
+          "https://www.dropbox.com/scl/fi/hfggr48jbos83dkcftj4b/04_force-snow.png?rlkey=sdshzguj3s891e1f8pe4bsoas&raw=1",
         ],
         basePrice: 300,
         categoryId: mousepadsCategory.id,
