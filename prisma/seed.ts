@@ -205,7 +205,8 @@ async function main() {
       data: {
         name: "Fones",
         slug: "headphones",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/headphones.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/pvt9j6xqyryzqsc4vpanp/catalogoFone.png?rlkey=xsibwret0t67rmhcontm94dsv&raw=1",
       },
     });
 
@@ -216,10 +217,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-vibe.png",
+          "https://www.dropbox.com/scl/fi/l51dn880j6jpzis7oziee/01_logi-vibe.png?rlkey=66ttcv2dckxil29r57tkahb93&raw=1",
+          "https://www.dropbox.com/scl/fi/4z3bincz9gpnhapy50p17/02_logi-vibe.png?rlkey=tdkdnxjk718rqx9kthzssp8bt&raw=1",
+          "https://www.dropbox.com/scl/fi/2g1gzj26v3u2y3nbwv4vs/03_logi-vibe.png?rlkey=ggey7oqlrqigtneszh22xvq1h&raw=1",
+          "https://www.dropbox.com/scl/fi/2fkiiiqn3t7uqiiz7uhte/04_logi-vibe.png?rlkey=o7gnohecymr52doqh7rhf0szf&raw=1",
         ],
         basePrice: 750,
         categoryId: headphonesCategory.id,
@@ -231,10 +232,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-lightspeed-phone.png",
+          "https://www.dropbox.com/scl/fi/xakf1vzdhv1kmm8rygtxn/01_logi-lightspeed-phone.png?rlkey=m7tatjywb4ciyljsh9sfge462&raw=1",
+          "https://www.dropbox.com/scl/fi/truzii2bstjn489ktli0i/02_logi-lightspeed-phone.png?rlkey=h62g86pi1srcij9755j2p8fa5&raw=1",
+          "https://www.dropbox.com/scl/fi/dtydv8bx12a1yhxbjped4/03_logi-lightspeed-phone.png?rlkey=s8arebm9ph7ndglja94u56scl&raw=1",
+          "https://www.dropbox.com/scl/fi/ho0uzzk5f6ki8nos6i8oh/04_logi-lightspeed-phone.png?rlkey=w1yvnznt547oiru0d1ufa9jwm&raw=1",
         ],
         basePrice: 1200,
         categoryId: headphonesCategory.id,
@@ -246,10 +247,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-astro-a30.png",
+          "hhttps://www.dropbox.com/scl/fi/far6mea6k8uh6u5ki5qhc/01_logi-astro-a30.png?rlkey=ty68akh6ce8evezzrfqp2azl5&raw=1",
+          "https://www.dropbox.com/scl/fi/pt7juxjixzuttg006onca/02_logi-astro-a30.png?rlkey=3k6f0h20dn313cja7h10as96e&raw=1",
+          "https://www.dropbox.com/scl/fi/wp9jgpviqp9dos4r1wuyk/03_logi-astro-a30.png?rlkey=ymcqwa5828qzqu9pt8fkutm0n&raw=1",
+          "https://www.dropbox.com/scl/fi/v7sk07k2yy09l3yh6fqyb/04_logi-astro-a30.png?rlkey=1ss1nw4worvk4nemai9qth59q&raw=1",
         ],
         basePrice: 1500,
         categoryId: headphonesCategory.id,
@@ -261,10 +262,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-earbuds.png",
+          "https://www.dropbox.com/scl/fi/bxejpjbd1d38gyh8huuct/01_logi-earbuds.png?rlkey=4h9uuevegwvaa5oz04fv7lv92&raw=1",
+          "https://www.dropbox.com/scl/fi/fpubtjaccii2ia6wuy61u/02_logi-earbuds.png?rlkey=cmn2bz4muiol7rxa6mvjd5xdd&raw=1",
+          "https://www.dropbox.com/scl/fi/h7ft4rxupue7a8v2ozr38/03_logi-earbuds.png?rlkey=rfygau6oss7nnrv025uxky3w6&raw=1",
+          "https://www.dropbox.com/scl/fi/1bm3188ddzjompskky0ib/04_logi-earbuds.png?rlkey=lvd7l1wz9mhrl6f1sbu7dfso2&raw=1",
         ],
         basePrice: 550,
         categoryId: headphonesCategory.id,
@@ -276,10 +277,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_hyperx-stinger.png",
+          "https://www.dropbox.com/scl/fi/5j9s4kl61jgltkqsj4qjl/01_hyperx-stinger.png?rlkey=rin9rstos64n681hqjp0pks3s&raw=1",
+          "https://www.dropbox.com/scl/fi/qxpeafkf12y0pi6z2h83d/02_hyperx-stinger.png?rlkey=tlzu56r55x780ap948g7xpyg0&raw=1",
+          "https://www.dropbox.com/scl/fi/0mctowrhzkxcw7th02upf/03_hyperx-stinger.png?rlkey=q89gn1fc90e1y2lcgun3b5sbn&raw=1",
+          "https://www.dropbox.com/scl/fi/8mzftom5hmx8h1bbq6cwy/04_hyperx-stinger.png?rlkey=eygllfhnld970vqmei3lwoc8c&raw=1",
         ],
         basePrice: 250,
         categoryId: headphonesCategory.id,
@@ -291,10 +292,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_razer-kraken.png",
+          "https://www.dropbox.com/scl/fi/bpxbbg17cc4ix9dt50ne1/01_razer-kraken.png?rlkey=ri8bz1lhdc5eefxfhwqkb3s3n&raw=1",
+          "https://www.dropbox.com/scl/fi/ssof4kb5rflfcv0ijujzf/02_razer-kraken.png?rlkey=8pxayk9spw3jtexi9jhlzpfyo&raw=1",
+          "https://www.dropbox.com/scl/fi/1uex86ujk9fekv0tl6q88/03_razer-kraken.png?rlkey=osg77045crmmf2da0ohpiiuc8&raw=1",
+          "https://www.dropbox.com/scl/fi/f28l2wnwanaxarl8jzosu/04_razer-kraken.png?rlkey=fjl8b3wb3n4gyusd2xrvoligc&raw=1",
         ],
         basePrice: 200,
         categoryId: headphonesCategory.id,
