@@ -417,7 +417,8 @@ async function main() {
       data: {
         name: "Monitores",
         slug: "monitors",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/monitors.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/ssg8bajpjp38jmg22eu7j/catalogoMonitores.png?rlkey=8cbxhh139u5up5art5ir4d02h&raw=1",
       },
     });
 
@@ -428,10 +429,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S2421HN.png",
+          "https://www.dropbox.com/scl/fi/5t8x5nlfk6fwyx6ufcwqp/01_dell-S2421HN.png?rlkey=kn3az61vbs24h0kgmdd3n71u5&raw=1",
+          "https://www.dropbox.com/scl/fi/fx6rqutsnqigraqn45nq4/02_dell-S2421HN.png?rlkey=bnofrmwrma28rldy1a3hoiaii&raw=1",
+          "https://www.dropbox.com/scl/fi/j1izqa1y5xe58wf6cr1tv/03_dell-S2421HN.png?rlkey=ntdf6keaaslcpfpaiod3v736i&raw=1",
+          "https://www.dropbox.com/scl/fi/czss2m6u8lsffx5a26tim/04_dell-S2421HN.png?rlkey=ci8t7xi2e9s5y5imcuwwn057m&raw=1",
         ],
         basePrice: 1500,
         categoryId: monitorsCategory.id,
@@ -443,10 +444,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-P2422H.png",
+          "https://www.dropbox.com/scl/fi/xxfnv23rptt3b49a46irw/01_dell-P2422H.png?rlkey=ye5k4ry0hy46i96w19l4kqonq&raw=1",
+          "https://www.dropbox.com/scl/fi/vyvl2s9k8qkolqekji7q8/02_dell-P2422H.png?rlkey=xkh28xyqn65bau2woebjbpsmt&raw=1",
+          "https://www.dropbox.com/scl/fi/8l2gkt4iwlccmo312nvwc/03_dell-P2422H.png?rlkey=p98anvftkpvw1v1irpunnchu3&raw=1",
+          "https://www.dropbox.com/scl/fi/o3uwkcid6zc4mn99q2q3v/04_dell-P2422H.png?rlkey=4kfhd8ap1jdg46bm4xxsubfa0&raw=1",
         ],
         basePrice: 2000,
         categoryId: monitorsCategory.id,
@@ -458,10 +459,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-P2723QE.png",
+          "https://www.dropbox.com/scl/fi/ovnlwpmdz9hhbuvtdjgac/01_dell-P2723QE.png?rlkey=g0gk0kig8gtz6ecaaz4zvtgnz&raw=1",
+          "https://www.dropbox.com/scl/fi/b4bgz9qnl4cyd67bo9jz1/02_dell-P2723QE.png?rlkey=blbr7pdhl4g0dh4dtnuyecag4&raw=1",
+          "https://www.dropbox.com/scl/fi/sb4vz43m70snmsiev1le2/03_dell-P2723QE.png?rlkey=noklbc03amah9c7lkazssd8ca&raw=1",
+          "https://www.dropbox.com/scl/fi/yq2jbtovjmc5mvyzupf3q/04_dell-P2723QE.png?rlkey=d1b9mb9pzblt8r25tkisr255c&raw=1",
         ],
         basePrice: 2500,
         categoryId: monitorsCategory.id,
@@ -473,10 +474,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S3422DWG.png",
+          "https://www.dropbox.com/scl/fi/b8w9p8js9gu2c5glkn6sr/01_dell-S3422DWG.png?rlkey=ai518ngl2cdhk3devsdy7igqf&raw=1",
+          "https://www.dropbox.com/scl/fi/bmjd5rz24hcf5kb1lkn43/02_dell-S3422DWG.png?rlkey=c8ulvukp538ldfux4bfyanzvz&raw=1",
+          "https://www.dropbox.com/scl/fi/35q3jacuhw52tmvz5i31k/03_dell-S3422DWG.png?rlkey=2x2y459r8easnrmaeexypki18&raw=1",
+          "https://www.dropbox.com/scl/fi/s3u5rqu3y4re6ef35btpo/04_dell-S3422DWG.png?rlkey=8gay1sjz1jiz3zjqt8wnsys99&raw=1",
         ],
         basePrice: 3200,
         categoryId: monitorsCategory.id,
@@ -488,10 +489,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S3222DGM.png",
+          "https://www.dropbox.com/scl/fi/4adq59n2au82xkm9xndjv/01_dell-S3222DGM.png?rlkey=aghl8cxad79kb6in71w9jhnlk&raw=1",
+          "https://www.dropbox.com/scl/fi/vytx7kklyo896jd2hg47w/02_dell-S3222DGM.png?rlkey=rt90h2to533r3d7upfu32e8mw&raw=1",
+          "https://www.dropbox.com/scl/fi/dteu2oeckg3suttoskp4j/03_dell-S3222DGM.png?rlkey=sbrdidl3p9wqv4r4cw4xj7c8j&raw=1",
+          "https://www.dropbox.com/scl/fi/l7d7bns77t9gqlkcm7eua/04_dell-S3222DGM.png?rlkey=ur6tbqhimxbhkue24rb3sscoo&raw=1",
         ],
         basePrice: 3500,
         categoryId: monitorsCategory.id,
@@ -503,10 +504,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-AW2524HF.png",
+          "https://www.dropbox.com/scl/fi/1olu79hlnmv8atvwj981e/01_dell-AW2524HF.png?rlkey=q35d3taa5q6wtfiwed9tdqqzq&raw=1",
+          "https://www.dropbox.com/scl/fi/02it9bz8311gzaoxgij2e/02_dell-AW2524HF.png?rlkey=j1vp17l0cbt4u7bzvj80vn96v&raw=1",
+          "https://www.dropbox.com/scl/fi/7gvpuwg3dugwm5vprlv6g/03_dell-AW2524HF.png?rlkey=4nmwapoycm4ywr6oz0mfijh4l&raw=1",
+          "https://www.dropbox.com/scl/fi/ckmgvquhdo6dgpnztubpb/04_dell-AW2524HF.png?rlkey=cmqi1yl6rmeg8bw3is5eodhem&raw=1",
         ],
         basePrice: 4200,
         categoryId: monitorsCategory.id,
