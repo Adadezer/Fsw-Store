@@ -523,7 +523,8 @@ async function main() {
       data: {
         name: "Speakers",
         slug: "speakers",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/speakers.png",
+        imageUrl:
+          "https://www.dropbox.com/scl/fi/387o00baajr5pi7wo11o9/catalogoSpeakers.png?rlkey=lup53jdu9k5wlejrfqd6xx1zb&raw=1",
       },
     });
 
@@ -534,10 +535,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-surround-z607.png",
+          "https://www.dropbox.com/scl/fi/2ed817q4wh6ye2gdh7nxj/01_logi-surround-z607.png?rlkey=h4b22dyleblecwq6x94lz9z2n&raw=1",
+          "https://www.dropbox.com/scl/fi/0ke50js6dhae34cugan0y/02_logi-surround-z607.png?rlkey=6msyjarmfqfwecdq7uncfwcvx&raw=1",
+          "https://www.dropbox.com/scl/fi/3ol0qvupnq1bgk35t0nmb/03_logi-surround-z607.png?rlkey=fda17fg3tye78jqnd1wnu5m1i&raw=1",
+          "https://www.dropbox.com/scl/fi/hgxg8kucxtpsd5vk83zq0/04_logi-surround-z607.png?rlkey=m1d3q3cno155zmyyrlenj3f0j&raw=1",
         ],
         basePrice: 1200,
         categoryId: speakersCategory.id,
@@ -549,10 +550,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-dock.png",
+          "https://www.dropbox.com/scl/fi/d2y8qarv9sfuxp338k97w/01_logi-dock.png?rlkey=xh1275vns09f8m5ifu1bcym5s&raw=1",
+          "https://www.dropbox.com/scl/fi/cupwoe62ajj3m0xipogi0/02_logi-dock.png?rlkey=ba8iiv5542ttonx18jhn37td0&raw=1",
+          "https://www.dropbox.com/scl/fi/se7guwhvqed5ymu0nc8kb/03_logi-dock.png?rlkey=1rq0gklzu6f2mkk48p8nt8bfk&raw=1",
+          "https://www.dropbox.com/scl/fi/5gwz0mdz61egivl2i6hfz/04_logi-dock.png?rlkey=ffy21feyszmp4nyzksjg2rh7k&raw=1",
         ],
         basePrice: 4500,
         categoryId: speakersCategory.id,
@@ -564,10 +565,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-SA-Z9R.png",
+          "https://www.dropbox.com/scl/fi/ro3423pcleumyvezt229p/01_sony-SA-Z9R.png?rlkey=eg5frgjydpagwfzmt8ucwc9og&raw=1",
+          "https://www.dropbox.com/scl/fi/pqrw31ev6kak68qfprlew/02_sony-SA-Z9R.png?rlkey=9z1bnvu82zhc9whkoo71pfp7q&raw=1",
+          "https://www.dropbox.com/scl/fi/69v6m9y5eo2yg3ahl792i/03_sony-SA-Z9R.png?rlkey=1hp3ictitmn7y97xotuuh2roh&raw=1",
+          "https://www.dropbox.com/scl/fi/7gswql57lqn7elwqh87f9/04_sony-SA-Z9R.png?rlkey=6qnzg901906zdm6n6x9uvand8&raw=1",
         ],
         basePrice: 4000,
         categoryId: speakersCategory.id,
@@ -579,10 +580,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-extra-bass.png",
+          "https://www.dropbox.com/scl/fi/7h0xh6gl9yn4mtyitgdqd/01_sony-extra-bass.png?rlkey=6ioju829wuovkb339bgxm6bgx&raw=1",
+          "https://www.dropbox.com/scl/fi/huwr4mokr0s5e8g5llkt6/02_sony-extra-bass.png?rlkey=mqw9jbtxf1w6h73y7ihost50p&raw=1",
+          "https://www.dropbox.com/scl/fi/l5h5kqqs2frjby47mjbpu/03_sony-extra-bass.png?rlkey=mscvdqn1oykp37v4scqvxd0e7&raw=1",
+          "https://www.dropbox.com/scl/fi/d0zknkfmhq2nxvye275xz/04_sony-extra-bass.png?rlkey=p6w4pyyg6206swhw4tgcvizyo&raw=1",
         ],
         basePrice: 3200,
         categoryId: speakersCategory.id,
@@ -594,10 +595,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-XB23.png",
+          "https://www.dropbox.com/scl/fi/ba0ycy3r9jxu957xtv7js/01_sony-XB23.png?rlkey=7e0v94lsdt1vjz94loebd9tyw&raw=1",
+          "https://www.dropbox.com/scl/fi/coohzoyz81xh8cv4wxbpn/02_sony-XB23.png?rlkey=7xzs8atsn5axuntxd5kq8ktnv&raw=1",
+          "https://www.dropbox.com/scl/fi/cyzw5n0ttexa7utp9w5s8/03_sony-XB23.png?rlkey=eexsokcujqpg3tqhn5n78s1x8&raw=1",
+          "https://www.dropbox.com/scl/fi/ruevfpv9ivoipjx21ezpt/04_sony-XB23.png?rlkey=q7cyb6qdzerlsh9pf7r6ktd85&raw=1",
         ],
         basePrice: 3500,
         categoryId: speakersCategory.id,
@@ -609,10 +610,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-S200F.png",
+          "https://www.dropbox.com/scl/fi/0ls5q925xa7lyfkanz9qy/01_sony-S200F.png?rlkey=3zxrw9i70l7np7tsxafz4hymh&raw=1",
+          "https://www.dropbox.com/scl/fi/4uxqyh4diwtiafejxp9n0/02_sony-S200F.png?rlkey=e1z5tqm6v8v3bjc47okls79v4&raw=1",
+          "https://www.dropbox.com/scl/fi/gqxfz1i36oj1vac4ifziq/03_sony-S200F.png?rlkey=jq5ze0rv2n5ghhd27bt09r1v4&raw=1",
+          "https://www.dropbox.com/scl/fi/qax0b2md73ghjxxasddq7/04_sony-S200F.png?rlkey=yps59iyepv7m21bfw327e3szv&raw=1",
         ],
         basePrice: 2500,
         categoryId: speakersCategory.id,
