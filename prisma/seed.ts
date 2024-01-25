@@ -171,10 +171,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/m7ix2g2a2xb5dmbigz1kj/01_epomaker-th80.png?rlkey=8d4yjqig52ykmn3srgn7eono1&raw=1",
-          "https://www.dropbox.com/scl/fi/ve92f1zctzyem9zrll9el/02_epomaker-th80.png?rlkey=4a6v7bsxba9t15fmizj1jmi4z&raw=1",
-          "https://www.dropbox.com/scl/fi/gmae1tkm1le8ldlegrm4h/03_epomaker-th80.png?rlkey=wgw7bvoo9qfqeuodczayzycpz&raw=1",
-          "https://www.dropbox.com/scl/fi/9hwe2sbgh2tx53hkbdyvf/04_epomaker-th80.png?rlkey=mbmaz39d1bxu09wblymzq2p3e&raw=1",
+          "https://i.imgur.com/DTcXQcq.png",
+          "https://i.imgur.com/xVZleoW.png",
+          "https://i.imgur.com/CKVMQyV.png",
+          "https://i.imgur.com/Yuzo0h0.png",
         ],
         basePrice: 500,
         categoryId: keyboardsCategory.id,
