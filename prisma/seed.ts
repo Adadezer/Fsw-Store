@@ -19,10 +19,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://imgur.com/Whjei2P",
-          "https://imgur.com/3lwOEQb",
-          "https://imgur.com/sJvmPCC",
-          "https://imgur.com/bgaEnPk",
+          "https://i.imgur.com/bgaEnPk.png",
+          "https://i.imgur.com/sJvmPCC.png",
+          "https://i.imgur.com/3lwOEQb.png",
+          "https://i.imgur.com/Whjei2P.png",
         ],
         basePrice: 650,
         categoryId: mousesCategory.id,
@@ -34,10 +34,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://imgur.com/W7Sty9w",
-          "https://imgur.com/Jv561U7",
-          "https://imgur.com/yucOpJn",
-          "https://imgur.com/H3p35cI",
+          "https://i.imgur.com/W7Sty9w.png",
+          "https://i.imgur.com/Jv561U7.png",
+          "https://i.imgur.com/yucOpJn.png",
+          "https://i.imgur.com/H3p35cI.png",
         ],
         basePrice: 750,
         categoryId: mousesCategory.id,
