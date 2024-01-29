@@ -8,8 +8,7 @@ async function main() {
       data: {
         name: "Mouses",
         slug: "mouses",
-        imageUrl:
-          "https://www.dropbox.com/scl/fi/tw1fm06ryqcf6vcjpyfcq/catalogoMouse.png?rlkey=i3uxsowyef1xkmq51czdu1c7a&raw=1",
+        imageUrl: "https://i.imgur.com/BMT8uYf.png",
       },
     });
 
@@ -20,10 +19,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/t38wtb52850lktup8f04a/01_mx-master-3s.png?rlkey=5z5ttws3b0i89yi3z8ujfh2ab&raw=1",
-          "https://www.dropbox.com/scl/fi/0ecn6unlt1j9kb1qay9t9/02_mx-master-3s.png?rlkey=kk40jqw9grsr26f8qzknbmzrm&raw=1",
-          "https://www.dropbox.com/scl/fi/o7mhrt135l0xx45l0wpae/03_mx-master-3s.png?rlkey=qgov3nsztkltx8mm2gq4uf504&raw=1",
-          "https://www.dropbox.com/scl/fi/ww778g9qylt3x1xyi27ek/04_mx-master-3s.png?rlkey=4ecvu99dkou83edvs9vdz2gl9&raw=1",
+          "https://imgur.com/Whjei2P",
+          "https://imgur.com/3lwOEQb",
+          "https://imgur.com/sJvmPCC",
+          "https://imgur.com/bgaEnPk",
         ],
         basePrice: 650,
         categoryId: mousesCategory.id,
@@ -35,10 +34,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/al74dv2ekv1c8ewbmukw5/01_logi-superlight.png?rlkey=axipi8nvbfld29s4ss8wbkdxu&raw=1",
-          "https://www.dropbox.com/scl/fi/gcytjvh0f1p7yszpyh5ik/02_logi-superlight.png?rlkey=nda658zqk6kwnbk6g2uzcmn85&raw=1",
-          "https://www.dropbox.com/scl/fi/ryhdh3jbu4btg3885m9fs/03_logi-superlight.png?rlkey=jf2m10ro3usim1zmtlso6d8ix&raw=1",
-          "https://www.dropbox.com/scl/fi/zar00uw7rahiqx8l2msfb/04_logi-superlight.png?rlkey=uqeuhj5eu16xofgs4hxjt973n&raw=1",
+          "https://imgur.com/W7Sty9w",
+          "https://imgur.com/Jv561U7",
+          "https://imgur.com/yucOpJn",
+          "https://imgur.com/H3p35cI",
         ],
         basePrice: 750,
         categoryId: mousesCategory.id,
