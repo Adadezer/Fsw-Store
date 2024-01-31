@@ -64,10 +64,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://i.imgur.com/x9zdvqH.png",
-          "https://i.imgur.com/LPxhBmR.png",
-          "https://i.imgur.com/YeAKiZL.png",
           "https://i.imgur.com/ho4c0xx.png",
+          "https://i.imgur.com/x9zdvqH.png",
+          "https://i.imgur.com/YeAKiZL.png",
+          "https://i.imgur.com/LPxhBmR.png",
         ],
         basePrice: 600,
         categoryId: mousesCategory.id,
