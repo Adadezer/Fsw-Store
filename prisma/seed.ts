@@ -8,7 +8,7 @@ async function main() {
       data: {
         name: "Mouses",
         slug: "mouses",
-        imageUrl: "https://i.imgur.com/BMT8uYf.png",
+        imageUrl: "https://i.imgur.com/CATSUb9.png",
       },
     });
 
@@ -19,10 +19,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://i.imgur.com/bgaEnPk.png",
-          "https://i.imgur.com/sJvmPCC.png",
-          "https://i.imgur.com/3lwOEQb.png",
           "https://i.imgur.com/Whjei2P.png",
+          "https://i.imgur.com/3lwOEQb.png",
+          "https://i.imgur.com/sJvmPCC.png",
+          "https://i.imgur.com/bgaEnPk.png",
         ],
         basePrice: 650,
         categoryId: mousesCategory.id,
@@ -34,10 +34,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://i.imgur.com/W7Sty9w.png",
-          "https://i.imgur.com/Jv561U7.png",
-          "https://i.imgur.com/yucOpJn.png",
           "https://i.imgur.com/H3p35cI.png",
+          "https://i.imgur.com/yucOpJn.png",
+          "https://i.imgur.com/Jv561U7.png",
+          "https://i.imgur.com/W7Sty9w.png",
         ],
         basePrice: 750,
         categoryId: mousesCategory.id,
@@ -49,10 +49,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/m3pidyxjvyraqxhvclk0q/01_logi-lightspeed.png?rlkey=l1ju2ujc8bdc6910ip5i4iwat&raw=1",
-          "https://www.dropbox.com/scl/fi/86lyg6u2p03qosig0110v/02_logi-lightspeed.png?rlkey=kxm5w9w42ar7qmz0958i6si9l&raw=1",
-          "https://www.dropbox.com/scl/fi/7npfhgyq1coxe4mb7nt2a/03_logi-lightspeed.png?rlkey=daoq89w81wm1ftoeqsuydkl1b&raw=1",
-          "https://www.dropbox.com/scl/fi/3nwrctia1ftqdf14tkkgs/04_logi-lightspeed.png?rlkey=hxrml963fz07urkewjnqexes4&raw=1",
+          "https://i.imgur.com/RYPgnlf.png",
+          "https://i.imgur.com/m1ocnmp.png",
+          "https://i.imgur.com/q7XPppL.png",
+          "https://i.imgur.com/nJRXSJ0.png",
         ],
         basePrice: 300,
         categoryId: mousesCategory.id,
@@ -64,10 +64,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/x3nppxpp4i3ja7vs9xtoe/01_hyperx-dart.png?rlkey=exy43he4kphhwwkdmt5zdovyv&raw=1",
-          "https://www.dropbox.com/scl/fi/inthhdxbedwotwf72qem9/02_hyperx-dart.png?rlkey=0dcq84esupufh1mrjw4lkbkk3&raw=1",
-          "https://www.dropbox.com/scl/fi/ilhs38875oawgprjyc3p1/03_hyperx-dart.png?rlkey=nrqw2n0vytnzbb8yw3ycf628q&raw=1",
-          "https://www.dropbox.com/scl/fi/tjw9o9x8pq4m2kszs66rc/04_hyperx-dart.png?rlkey=uh8ue9kajkz2mgiadktk47zet&raw=1",
+          "https://i.imgur.com/ho4c0xx.png",
+          "https://i.imgur.com/x9zdvqH.png",
+          "https://i.imgur.com/YeAKiZL.png",
+          "https://i.imgur.com/LPxhBmR.png",
         ],
         basePrice: 600,
         categoryId: mousesCategory.id,
@@ -79,10 +79,10 @@ async function main() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://www.dropbox.com/scl/fi/51vo10k10a2g8r10z8758/01_razer-deathadder.png?rlkey=uurghz5dygu5hhiae2kchj0js&raw=1",
-          "https://www.dropbox.com/scl/fi/sugmqqa897eitklstyovq/02_razer-deathadder.png?rlkey=xp56nfuz3bzpq4x8kkys71v9v&raw=1",
-          "https://www.dropbox.com/scl/fi/o5rjn9qv0nv6rom152l39/03_razer-deathadder.png?rlkey=pzo78wbbf6ko4p7nd6g6akwy0&raw=1",
-          "https://www.dropbox.com/scl/fi/lxy7bq69mknnbwgdi6zoq/04_razer-deathadder.png?rlkey=09to1uu71lla331gx9aadyb7a&raw=1",
+          "https://i.imgur.com/ksJPYqK.png",
+          "https://i.imgur.com/LJXxiOb.png",
+          "https://i.imgur.com/HikKl7R.png",
+          "https://i.imgur.com/wgfZJgW.png",
         ],
         basePrice: 350,
         categoryId: mousesCategory.id,
